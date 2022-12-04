@@ -1,0 +1,168 @@
+*{
+  padding:0;
+  margin:0;
+  /* font-family: monospace; */
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.rectangle{
+display: block;
+width: 60%;
+height: auto;
+border:1px solid gray;
+padding-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-top:40px;
+background: linear-gradient(0deg, #1CB6A3 6.17%, #145AE2 94.48%);
+opacity: 0.9;
+box-shadow: 5px 7px 20px 2px rgba(0, 0, 0, 0.3);
+border-radius: 31px;
+min-width: 500px;
+}
+b{
+  display: block;
+  max-width: fit-content;
+  padding-top:50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+margin-left:auto;
+margin-right:auto;
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+/* line-height: 77px; */
+color: #FFFFFF;
+}
+.inptone{
+  display: block;
+  /* width: 671px; */
+  height:45px;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  background: rgba(222, 222, 222, 0.66);
+  border: 2px solid rgba(0, 0, 0, 0.466);
+  border-radius: 20px;
+}
+.inpttwo{
+  display: block;
+  /* width: 671px; */
+  height:45px;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  background: rgba(222, 222, 222, 0.66);
+  border: 0px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.466);
+}
+.btn:hover{
+  outline: 2px solid white;
+}
+.btntwo:hover{
+  outline:4px solid rgb(0, 199, 243);
+}
+.btn{
+  display: block;
+max-width: fit-content;
+height: auto;
+padding: 15px;
+padding-left: 55px;
+padding-right: 55px;
+/* background: #17D685; */
+border: 0;
+margin: auto;
+border-radius: 40px;
+}
+.btnone{
+  margin-top:35px;
+  background: #17D685;
+  color: white;
+  filter: drop-shadow(6px 4px 17px rgba(0, 0, 0, 0.15));
+/* font-family: 'Signika Negative'; */
+font-style: normal;
+font-weight: 600;
+/* font-size: 16px; */
+/* line-height: 37px; */
+}
+.btntwo{
+  color: #02C2FF;
+  margin-top:20px;
+}
+input::placeholder{
+  padding-left: 10px;
+  font-weight: 400;
+font-size: 20px;
+line-height: 49px;
+color: rgba(75, 75, 75, 0.75);
+}
+input:focus{
+  /* outline: none; */
+  outline: 3px solid rgb(243, 243, 243);
+}
+input[type="email"],input[type="text"],input[type="password"]{
+  font-size:25px;
+  padding-left: 8px;
+}
+
+.recttwo{
+  background-color: #02C2FF;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:10px;
+  border: 1px solid #8b8b8b;
+border-radius: 27px;
+min-width: 350px;
+box-shadow: 4px 7px 23px 4px rgba(0, 0, 0, 0.25);
+/* background: linear-gradient(90deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%); */
+}
+.firstname,.lastname,.emailaddress,.signuppassword,.signuppasswordtwo{
+  background-color: #e9e8e8;
+  display: block;
+  width: 300px;
+  margin:20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 17px;
+  border: 1px solid gray;
+  padding: 8px;
+}
+big,p{
+  text-align: center;
+  margin:auto;
+  color:white;
+}
+big{
+  display: block;
+  padding-top:30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 49px;
+}
+p{
+  width:80%;
+  font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: white;
+}
+a{
+  color:white;
+}
+.indent{
+  margin-left: 50px;
+}
+.btnone{
+  margin-bottom: 30px;
+}
+.btnone:hover{
+  outline:4px solid rgb(0, 199, 243);
+}
+
+
